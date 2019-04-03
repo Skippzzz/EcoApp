@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-04-03T09:26:52.744+02:00
-  initializedAtString: 2019-04-03T09:26:52.682+02:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2019-04-03T12:15:30.993+02:00
+  initializedAtString: 2019-04-03T12:14:50.825+02:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/Skippzzz/EcoApp.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/Skippzzz/EcoApp.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/Skippzzz/EcoApp.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
